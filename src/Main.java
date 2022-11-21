@@ -90,6 +90,14 @@ public class Main {
                     num2 /= 10;
                 }
                 System.out.println("Reversed Number2: " + reversed2);
+
+            case 6:
+                System.out.println("Exiting...");
+                System.exit(0);
+
+            default:
+                System.out.println("Invalid option");
+
         }
 
     }
