@@ -62,7 +62,16 @@ public class Main {
                 else
                     System.out.println(num2 + " is not a prime number.");
 
+            case 4:
+                if ( num1 % 2 == 0 )
+                    System.out.println(num1+" is even");
+                else
+                    System.out.println(num1+" is not even");
 
+                if ( num2 % 2 == 0 )
+                    System.out.println(num2+" is even");
+                else
+                    System.out.println(num2+" is not even");
         }
 
     }
