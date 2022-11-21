@@ -72,6 +72,24 @@ public class Main {
                     System.out.println(num2+" is even");
                 else
                     System.out.println(num2+" is not even");
+
+            case 5:
+                int reversed1=0;
+                while(num1 != 0)
+                {
+                    int digit1 = num1 % 10;
+                    reversed1 = reversed1 * 10 + digit1;
+                    num1 /= 10;
+                }
+                System.out.println("Reversed Number1: " + reversed1);
+                int reversed2=0;
+                while(num2 != 0)
+                {
+                    int digit2 = num2 % 10;
+                    reversed2 = reversed2 * 10 + digit2;
+                    num2 /= 10;
+                }
+                System.out.println("Reversed Number2: " + reversed2);
         }
 
     }
